@@ -1,0 +1,19 @@
+{
+    "name": "gouki/test",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangchuang",
+            "email": "4967893@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{  
+        "psr-4":{  
+            "gouki\\test\\":"src/" 
+        } 
+    },
+    "require": {}
+}
